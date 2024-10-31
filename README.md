@@ -5,5 +5,5 @@ The practical cryptogracryptographical algorithms and tools.
 
 
 ### ToDo's:
-Implement my first prime Factorization Algorithm.
+* Implement my first prime Factorization Algorithm.
 
