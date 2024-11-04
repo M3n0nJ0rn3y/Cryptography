@@ -5,9 +5,10 @@ The practical cryptogracryptographical algorithms and tools.
 
 
 ### ToDo's:
-* Implement RSA Cryptosystem.
-* Implement Diffie-Hellman Key Exchange protocol.
-* Comprehension of algorithms for Discrete Logarithm calculation.
+* Implement RSA Cryptosystem. 
+  - Side Quest:  
+   My Miller-Rabin algorithm is incredibly slow. I need to deterministically pick new random values without repetition. &larr; In Progress...
+* Comprehension of algorithms for Discrete Logarithm calculation. 
 * Comprehension of Digital Signature protocols.
 
 
