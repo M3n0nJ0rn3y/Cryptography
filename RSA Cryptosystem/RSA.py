@@ -14,13 +14,14 @@ def mr_prime_generator() -> int:
         print("------------------------Generating Prime----------------------------")
         print("--------------------------------------------------------------------")
 
-        d, exponent, modulos = mr_function()
+        d, exponent, perf_modulo = mr_function()
         prime_sus = Miller_Rabin_test(d, exponent, perf_modulo)
 
     return perf_modulo
 
 
 def Miller_Rabin_test(m, r, n) -> bool:
+    print("Testing...")
     a = random.randint(2, n-2)
     x = square_n_multiply(a, m, n)
 
@@ -43,8 +44,16 @@ def Miller_Rabin_test(m, r, n) -> bool:
 
 def mr_function():
     # The first and the last int s.t. len(bin(int))=50
-    #n = random.randint(2 ** 50, (2 ** 51) - 1)
-    n = random.randint(200, 500)
+    # n = random.randint(2 ** 50, (2 ** 51) - 1)
+    # n = random.randint(200, 500)
+
+    # This i[0] will increment with one each time this function is called.
+    i[0] += 1
+    index = i[0]
+    if index == k:
+        print("List out of indecies!!!")
+    n = reslst[index]
+
     m = n - 1
     r = 0
 
@@ -56,10 +65,14 @@ def mr_function():
 
     return int(m), r, n
 
+
 #Phase 1:
 #Phase 2:
 #Phase 3:
 
 
 if __name__ == "__main__":
+    i = [-1]
+    k = 1000000
+    reslst = random.sample(range(2 ** 50 + 1, 2 ** 51 - 1), 1000000)
     print(mr_prime_generator())

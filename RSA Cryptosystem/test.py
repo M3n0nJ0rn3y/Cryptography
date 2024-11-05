@@ -1,9 +1,12 @@
-m = 120
-r = 0
+def test():
+    i[0] += 1
+    index = i[0]
+    print(global_list[index])
 
 
-while m % 2 == 0:
-    m = m / 2
-    r += 1
+i = [-1]
+global_list = ['TRUMP!','TRUMP!!','TRUMP!!!','TRUMP!!!!','TRUMP!!!!!']
 
-print(f'{m} * 2^{r}')
+test()
+test()
+test()
