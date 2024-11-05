@@ -3,19 +3,19 @@ def square_n_multiply(base, exponent, modulus=None) -> int:
     result = 1
 
     if modulus is not None:
-        base = base % modulus  # Ensure base is within modulus
+        base = base % modulus  # Check that base is within mod.
 
     for bit in bin_exp:
-        result = result * result  # Square step
+        result = result * result  # Square on each step
         if modulus is not None:
-            result = result % modulus  # Apply modulus
+            result = result % modulus
 
         if bit == '1':
-            result = result * base  # Multiply step
+            result = result * base  # Multiply if bit is equal to one.
             if modulus is not None:
-                result = result % modulus  # Apply modulus
+                result = result % modulus
 
-    return result if modulus is None else result % modulus
+    return result
 
 
 
