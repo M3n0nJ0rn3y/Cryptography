@@ -13,8 +13,9 @@ The practical cryptographical algorithms and tools.
    2. I searched for effective prime generation algorithms and "Sieve of Eratosthenes" came up. 
       1. *Comment:* Still I did not use as much time as I would like to ensure that I am implementing the algorithm correctly. 
 3. I used the primes that I generated in file Sieve_of_Eratosthenes. Since all primes are coprime to each other I can now pick the greates two and get p * q.
-4. **Next &rarr;** Now I can actually implement the RSA algorithm!
+4. Now I can actually implement the RSA algorithm!
    1. Make it handle encryption and decryption of numbers.
+      1. **Next &rarr;** I need to implement greatest common divisior to find an e that can also have an inverse d. (HARD)
    2. Extend it to handle characters.
 
 

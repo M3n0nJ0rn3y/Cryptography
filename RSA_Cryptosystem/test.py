@@ -1,12 +1,5 @@
-def test():
-    i[0] += 1
-    index = i[0]
-    print(global_list[index])
+listen = ["Trump!", "Trump!!", "Trump!!!"]
 
+p, q = listen[-1], listen[-2]
 
-i = [-1]
-global_list = ['TRUMP!','TRUMP!!','TRUMP!!!','TRUMP!!!!','TRUMP!!!!!']
-
-test()
-test()
-test()
+print (p, q)

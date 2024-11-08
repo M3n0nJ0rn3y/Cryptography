@@ -1,9 +1,10 @@
-from Cryptography.RSA_Cryptosystem.RSA import pick_a
+a = 47
+mod = 5
 
-print(pick_a())
+equation = (a//mod) * mod + a%mod
 
-print(pick_a())
+if equation == a:
+    print(f'{a} = {(a//mod)} * {mod} + {a%mod}')
 
-print(pick_a())
-
-print(pick_a())
+else:
+    print("Calculation incorrect.")
