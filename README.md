@@ -12,7 +12,10 @@ The practical cryptographical algorithms and tools.
       1. *Comment:* Using a number testing algorithm to generate a list of primes gave me a proper headache. I need to learn to research more before jumping into implementing.
    2. I searched for effective prime generation algorithms and "Sieve of Eratosthenes" came up. 
       1. *Comment:* Still I did not use as much time as I would like to ensure that I am implementing the algorithm correctly. 
-3. **Next &rarr;** Use the Sieve of Erastothenes to generate the primes to use in RSA.
+3. I used the primes that I generated in file Sieve_of_Eratosthenes. Since all primes are coprime to each other I can now pick the greates two and get p * q.
+4. **Next &rarr;** Now I can actually implement the RSA algorithm!
+   1. Make it handle encryption and decryption of numbers.
+   2. Extend it to handle characters.
 
 
 
