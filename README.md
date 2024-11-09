@@ -14,11 +14,11 @@ The practical cryptographical algorithms and tools.
       1. *Comment:* Still I did not use as much time as I would like to ensure that I am implementing the algorithm correctly. 
 3. I used the primes that I generated in file Sieve_of_Eratosthenes. Since all primes are coprime to each other I can now pick the greates two and get p * q.
 4. Now I can actually implement the RSA algorithm!
-   1. Make it handle encryption and decryption of numbers.
-      1. **Next &rarr;** I need to implement greatest common divisior to find an e that can also have an inverse d. (HARD)
+   1. **Next &rarr;** Make it handle encryption and decryption of numbers.
    2. Extend it to handle characters.
 
-
+#### Extra for RSA:
+* I can implement my own gcd instead of using an library. 
 
 ### Coming next:
 #### Implement the Miller-Rabin test, and use it to check if a large number is a prime.
