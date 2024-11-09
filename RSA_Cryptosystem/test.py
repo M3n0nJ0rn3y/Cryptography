@@ -1,5 +1,5 @@
-listen = ["Trump!", "Trump!!", "Trump!!!"]
+listen = [8,9,3,1]
 
-p, q = listen[-1], listen[-2]
+first, second = listen[-2], listen[-1]
 
-print (p, q)
+print(first, second)

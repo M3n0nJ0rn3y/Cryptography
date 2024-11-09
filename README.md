@@ -2,6 +2,12 @@
 The practical cryptographical algorithms and tools.
 
 ## List of Content:
+* Required Python packages.
+* Implementing RSA Cryptosystem.
+
+### Required Python packages:
+1. sympy
+
 
 
 ### Implementing RSA Cryptosystem.  &larr; In Progress... 
