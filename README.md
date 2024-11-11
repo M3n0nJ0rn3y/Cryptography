@@ -24,11 +24,11 @@ The practical cryptographical algorithms and tools.
    2. Extend it to handle characters.
 
 #### Extra for RSA:
-* I can implement my own gcd instead of using an library. 
+* I implement my own gcd instead of using an library. 
 
 ### Coming next:
-#### Implement the Miller-Rabin test, and use it to check if a large number is a prime.
-#### Algorithms for Discrete Logarithm calculation. 
-#### Digital Signature protocols.
+* Implement the Miller-Rabin test, and use it to check if a large number is a prime.
+* Algorithms for Discrete Logarithm calculation. 
+* Digital Signature protocols.
 
 
